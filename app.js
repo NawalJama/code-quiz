@@ -76,7 +76,6 @@ function gameOver() {
 function saveScore() {
   var initials = initialsElement.value.trim();
   if (initials) {
-    // Save the initials and score to storage or perform any other desired action
     alert("Score saved!");
   }
 }
